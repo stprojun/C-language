@@ -49,10 +49,6 @@ int main (void) {
 
     }
     
-
-    
-
-
     printf("金額(税抜)は%d円\n",price);
 
     price = round(price * (1 + TAX / 100.0));
